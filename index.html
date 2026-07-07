@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CodeWithMech - Web Design Agency</title>
+  
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+  
+  <!-- GSAP & Plugins -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis"></script>
+  
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Cursor Effect -->
+  <div class="cursor-glow"></div>
+  
+  <!-- Scroll Progress -->
+  <div class="scroll-progress"></div>
+  
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">CodeWithMech</div>
+    <nav>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Hero Section -->
+  <section id="hero" class="section hero">
+    <div class="hero-background"></div>
+    <div class="hero-content">
+      <h1>Websites That Make Businesses Stand Out.</h1>
+      <p>We build modern, fast, animated websites that help businesses attract more customers.</p>
+      <div class="buttons">
+        <a href="#portfolio" class="btn primary">View Portfolio</a>
+        <a href="#contact" class="btn secondary">Get a Free Consultation</a>
+      </div>
+    </div>
+  </section>
+  
+  <!-- About -->
+  <section id="about" class="section about">
+    <h2>About CodeWithMech</h2>
+    <p>We are a modern digital agency helping businesses establish a powerful online presence.</p>
+  </section>
+  
+  <!-- Services -->
+  <section id="services" class="section services">
+    <h2>Our Services</h2>
+    <div class="cards-container">
+      <!-- Service Cards -->
+      <div class="service-card">Website Design</div>
+      <div class="service-card">Website Development</div>
+      <div class="service-card">Landing Pages</div>
+      <div class="service-card">Restaurant Websites</div>
+      <div class="service-card">Club Websites</div>
+      <div class="service-card">Hotel Websites</div>
+      <div class="service-card">Business Websites</div>
+      <div class="service-card">Website Redesign</div>
+      <div class="service-card">Website Maintenance</div>
+      <div class="service-card">SEO Ready Websites</div>
+    </div>
+  </section>
+  
+  <!-- Why Choose Us -->
+  <section id="why" class="section why">
+    <h2>Why Choose Us</h2>
+    <div class="cards-container">
+      <div class="why-card">Mobile First</div>
+      <div class="why-card">Lightning Fast</div>
+      <div class="why-card">Premium Design</div>
+      <div class="why-card">SEO Optimized</div>
+      <div class="why-card">Responsive</div>
+      <div class="why-card">Affordable</div>
+      <div class="why-card">Secure</div>
+      <div class="why-card">Modern Animations</div>
+    </div>
+  </section>
+  
+  <!-- Portfolio -->
+  <section id="portfolio" class="section portfolio">
+    <h2>Our Portfolio</h2>
+    <div class="projects-grid">
+      <!-- Repeat for each project -->
+      <div class="project-card">
+        <div class="project-image">[Image Placeholder]</div>
+        <div class="project-details">
+          <h3>Luxury Restaurant</h3>
+        </div>
+      </div>
+      <!-- Add 5 more mockups similarly -->
+    </div>
+  </section>
+  
+  <!-- Process -->
+  <section id="process" class="section process">
+    <h2>Our Process</h2>
+    <div class="timeline">
+      <div class="timeline-item">Discovery</div>
+      <div class="timeline-item">Planning</div>
+      <div class="timeline-item">Design</div>
+      <div class="timeline-item">Development</div>
+      <div class="timeline-item">Launch</div>
+      <div class="timeline-item">Support</div>
+    </div>
+  </section>
+  
+  <!-- Testimonials -->
+  <section id="testimonials" class="section testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials-container">
+      <div class="testimonial-card">
+        <p>"Excellent service and stunning websites!"</p>
+      </div>
+      <div class="testimonial-card">
+        <p>"Our online presence has grown exponentially."</p>
+      </div>
+      <div class="testimonial-card">
+        <p>"Highly recommended for modern design."</p>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FAQ -->
+  <section id="faq" class="section faq">
+    <h2>Frequently Asked Questions</h2>
+    <!-- Accordion Items -->
+    <div class="accordion">
+      <div class="accordion-item">
+        <button class="accordion-header">How long does a project take?</button>
+        <div class="accordion-content">Typically 4-8 weeks depending on scope.</div>
+      </div>
+      <!-- Add more FAQ items -->
+    </div>
+  </section>
+  
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Name" />
+      <input type="text" placeholder="Business Name" />
+      <input type="tel" placeholder="Phone" />
+      <input type="email" placeholder="Email" />
+      <textarea placeholder="Message"></textarea>
+      <button type="submit" class="btn primary">Send Message</button>
+    </form>
+    <div class="contact-buttons">
+      <a href="https://wa.me/your-number" class="btn secondary">WhatsApp</a>
+      <a href="https://instagram.com/yourprofile" class="btn secondary">Instagram</a>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="logo">CodeWithMech</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="social">
+      <a href="#">IG</a>
+      <a href="#">WA</a>
+    </div>
+    <p>&copy; 2024 CodeWithMech</p>
+  </footer>
+  
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
